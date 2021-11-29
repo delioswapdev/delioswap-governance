@@ -1,0 +1,11 @@
+artifacts/
+build/
+cache/
+deploy/
+deployments/
+migrations/
+node_modules/
+deployinfo.md
+hardhat.config.ts
+truffle-config.js
+*.tgz

@@ -296,6 +296,10 @@ contract GovernorAlpha {
         assembly { chainId := chainid() }
         return chainId;
     }
+	
+    function __acceptAdmin() public {
+        timelock.acceptAdmin();
+    }
 }
 
 interface TimelockInterface {
